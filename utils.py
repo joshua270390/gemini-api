@@ -73,35 +73,38 @@ Only output the list of objects, with nothing else
 
 step_2_system_message = {'role':'system', 'content': step_2_system_message_content}    
 
-
 step_4_system_message_content = f"""
-    You are a Digital Marketing expert assistant.
+You are a Digital Marketing expert assistant.
 
-    STRICT RULES:
-    - You MUST explain ALL requested services mentioned in the user query
-    - You MUST NOT skip any service
-    - You MUST cover EVERY service from the provided service information
-    - If multiple services are present, explain each one separately
+YOUR TASK:
+Explain ALL services provided in "Relevant service information".
 
-    IMPORTANT:
-    Before answering, list all services internally and ensure ALL are covered.
-    
-    FORMAT STRICTLY:
-    
-    For EACH service:
-    
-    ### <Service Name>
-    Description: ...
-    Key Features:
-    - ...
-    - ...
-    Use Case: ...
-    
-    DO NOT summarize.
-    DO NOT skip.
-    DO NOT merge services.
-    
-    If you skip even one service, the answer is WRONG.
+STRICT RULES (MANDATORY):
+- You MUST explain EVERY service given
+- You MUST NOT skip any service
+- You MUST NOT add extra services
+- You MUST NOT add any text before or after the answer
+- You MUST follow the exact format below
+
+FORMAT (STRICTLY FOLLOW):
+
+### <Service Name>
+Description: <service description>
+Key Features:
+- <feature 1>
+- <feature 2>
+- <feature 3>
+- <feature 4>
+Use Case: <use case>
+
+REPEAT the above format for EACH service.
+
+IMPORTANT:
+- Do NOT merge services
+- Do NOT summarize
+- Do NOT change headings
+- Do NOT add explanations outside the format
+- Even small format mistakes are considered WRONG
 """
 
 step_4_system_message = {'role':'system', 'content': step_4_system_message_content}    
@@ -109,17 +112,20 @@ step_4_system_message = {'role':'system', 'content': step_4_system_message_conte
 step_6_system_message_content = f"""
     You are an evaluator.
 
-Check if the response explains ALL services listed in the "Agent response".
-
-Rules:
-- If ALL services mentioned in the response are explained → Y
-- If ANY service is missing → N
-
-Ignore wording differences.
-Ignore minor formatting issues.
-
-Return ONLY:
-Y or N
+    Your job is to check whether the agent correctly answered the customer query.
+    
+    Steps:
+    1. Extract the services requested in the CUSTOMER MESSAGE.
+    2. Check if EACH of those services is clearly explained in the AGENT RESPONSE.
+    
+    IMPORTANT:
+    - Ignore extra services in the response
+    - Ignore category expansions (e.g., Crypto Marketing → multiple services)
+    - Focus ONLY on whether requested services are covered
+    
+    Return ONLY:
+    Y - if ALL requested services are explained
+    N - otherwise
 """
 
 step_6_system_message = {'role':'system', 'content': step_6_system_message_content}    
