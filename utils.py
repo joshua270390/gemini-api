@@ -6,7 +6,7 @@ services_file = 'services.json'
 categories_file = 'categories.json'
 # Initialize client
 client = genai.Client(
-    api_key="AIzaSyCs8WHKJMZXlJYF9WlpfzSU20iV2qBIx-I"
+    api_key=""
 )
 
 delimiter = "####"
