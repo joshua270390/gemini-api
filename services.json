@@ -1,0 +1,271 @@
+{
+    "Full Service Marketing": {
+        "name":"Full Service Marketing",
+      "category": "Digital Marketing Agency",
+      "description": "Comprehensive marketing solution covering all digital channels.",
+      "features": [
+        "SEO + Social Media + Ads",
+        "Content Strategy",
+        "Campaign Management",
+        "Analytics & Reporting"
+      ],
+      "use_case": "Businesses looking for complete end-to-end marketing support"
+    },
+    "Online Branding": {
+        "name":"Online Branding",
+      "category": "Digital Marketing Agency",
+      "description": "Building a strong and consistent online brand presence.",
+      "features": [
+        "Brand Identity Design",
+        "Reputation Management",
+        "Visual Branding",
+        "Audience Positioning"
+      ],
+      "use_case": "Startups and businesses wanting brand recognition"
+    },
+    "Performance Marketing": {
+        "name":"Performance Marketing",
+      "category": "Digital Marketing Agency",
+      "description": "Data-driven marketing focused on measurable results.",
+      "features": [
+        "ROI Optimization",
+        "Conversion Tracking",
+        "A/B Testing",
+        "Paid Campaign Optimization"
+      ],
+      "use_case": "Businesses focused on leads and sales growth"
+    },
+
+    "Token Promotion": {
+      "name":"Token Promotion",
+      "category": "Crypto Marketing Agency",
+      "description": "Marketing campaigns to promote crypto tokens.",
+      "features": [
+        "Community Building",
+        "Exchange Listings Promotion",
+        "Airdrops Campaigns",
+        "Telegram/Discord Growth"
+      ],
+      "use_case": "Crypto projects launching new tokens"
+    },
+    "NFT Marketing": {
+        "name":"NFT Marketing",
+      "category": "Crypto Marketing Agency",
+      "description": "Promoting NFT collections and increasing visibility.",
+      "features": [
+        "Influencer Promotion",
+        "Whitelist Campaigns",
+        "Discord Engagement",
+        "Marketplace Optimization"
+      ],
+      "use_case": "NFT creators and digital artists"
+    },
+    "Blockchain PR": {
+        "name":"Blockchain PR",
+      "category": "Crypto Marketing Agency",
+      "description": "Public relations for blockchain-based projects.",
+      "features": [
+        "Press Releases",
+        "Media Coverage",
+        "Crypto News Publishing",
+        "Reputation Management"
+      ],
+      "use_case": "Blockchain startups seeking credibility"
+    },
+
+    "On-Page SEO": {
+        "name":"On-Page SEO",
+      "category": "Search Engine Optimization",
+      "description": "Optimizing website elements for better search rankings.",
+      "features": [
+        "Keyword Optimization",
+        "Meta Tags",
+        "Content Optimization",
+        "Internal Linking"
+      ],
+      "use_case": "Improving website visibility on search engines"
+    },
+    "Off-Page SEO": {
+        "name": "Off-Page SEO",
+      "category": "Search Engine Optimization",
+      "description": "Building authority through external sources.",
+      "features": [
+        "Backlink Building",
+        "Guest Posting",
+        "Social Signals",
+        "Directory Submissions"
+      ],
+      "use_case": "Increasing domain authority and rankings"
+    },
+    "Technical SEO": {
+        "name":"Technical SEO",
+      "category": "Search Engine Optimization",
+      "description": "Improving backend website performance.",
+      "features": [
+        "Site Speed Optimization",
+        "Mobile Optimization",
+        "Crawlability Fixes",
+        "Structured Data"
+      ],
+      "use_case": "Fixing technical issues affecting SEO"
+    },
+    "Local SEO": {
+        "name":"Local SEO",
+      "category": "Search Engine Optimization",
+      "description": "Optimizing for local search results.",
+      "features": [
+        "Google Business Profile",
+        "Local Listings",
+        "Reviews Management",
+        "Location Keywords"
+      ],
+      "use_case": "Businesses targeting local customers"
+    },
+
+    "Blog Writing": {
+        "name":"Blog Writing",
+      "category": "Content Marketing Agency",
+      "description": "Creating informative blog content.",
+      "features": [
+        "SEO Blogs",
+        "Topic Research",
+        "Content Calendar",
+        "Keyword Integration"
+      ],
+      "use_case": "Driving organic traffic through content"
+    },
+    "Copywriting": {
+        "name":"Copywriting",
+      "category": "Content Marketing Agency",
+      "description": "Writing persuasive marketing content.",
+      "features": [
+        "Sales Copy",
+        "Landing Pages",
+        "Ad Copy",
+        "Brand Messaging"
+      ],
+      "use_case": "Improving conversions and engagement"
+    },
+    "Video Content": {
+        "name":"Video Content",
+      "category": "Content Marketing Agency",
+      "description": "Creating engaging video-based content.",
+      "features": [
+        "Explainer Videos",
+        "Short-form Content",
+        "YouTube Videos",
+        "Editing & Production"
+      ],
+      "use_case": "Boosting engagement through visuals"
+    },
+    "Email Marketing Content": {
+        "name":"Email Marketing Content",
+      "category": "Content Marketing Agency",
+      "description": "Creating email campaigns for engagement.",
+      "features": [
+        "Newsletter Writing",
+        "Automation Sequences",
+        "Promotional Emails",
+        "Personalization"
+      ],
+      "use_case": "Customer retention and nurturing"
+    },
+
+    "Organic Social Media": {
+      "name":"Organic Social Media",
+      "category": "Social Media Marketing",
+      "description": "Growing audience without paid ads.",
+      "features": [
+        "Content Posting",
+        "Audience Engagement",
+        "Hashtag Strategy",
+        "Community Building"
+      ],
+      "use_case": "Building long-term brand presence"
+    },
+    "Paid Social Ads": {
+        "name":"Paid Social Ads",
+      "category": "Social Media Marketing",
+      "description": "Running paid ads on social platforms.",
+      "features": [
+        "Ad Campaign Setup",
+        "Audience Targeting",
+        "Budget Optimization",
+        "Performance Tracking"
+      ],
+      "use_case": "Generating leads and sales quickly"
+    },
+    "Influencer Marketing": {
+        "name": "Influencer Marketing",
+      "category": "Social Media Marketing",
+      "description": "Collaborating with influencers for promotion.",
+      "features": [
+        "Influencer Outreach",
+        "Campaign Planning",
+        "Content Collaboration",
+        "Performance Tracking"
+      ],
+      "use_case": "Expanding reach through influencers"
+    },
+    "Social Media Management": {
+        "name": "Social Media Management",
+      "category": "Social Media Marketing",
+      "description": "Managing social media accounts professionally.",
+      "features": [
+        "Content Scheduling",
+        "Profile Optimization",
+        "Analytics Tracking",
+        "Community Management"
+      ],
+      "use_case": "Maintaining consistent social presence"
+    },
+
+    "B2B Lead Generation": {
+        "name":"B2B Lead Generation",
+      "category": "Lead Generation Agency",
+      "description": "Generating leads for business clients.",
+      "features": [
+        "LinkedIn Outreach",
+        "Cold Emailing",
+        "CRM Integration",
+        "Lead Qualification"
+      ],
+      "use_case": "Businesses targeting other businesses"
+    },
+    "B2C Lead Generation": {
+        "name":"B2C Lead Generation",
+      "category": "Lead Generation Agency",
+      "description": "Generating leads from individual consumers.",
+      "features": [
+        "Landing Pages",
+        "Ad Campaigns",
+        "Lead Forms",
+        "Retargeting"
+      ],
+      "use_case": "Businesses targeting end customers"
+    },
+    "Email Outreach": {
+        "name":"Email Outreach",
+      "category": "Lead Generation Agency",
+      "description": "Sending targeted emails to prospects.",
+      "features": [
+        "Cold Email Campaigns",
+        "List Building",
+        "Automation Tools",
+        "Follow-ups"
+      ],
+      "use_case": "Direct communication with potential clients"
+    },
+    "Funnel Optimization": {
+        "name":"Funnel Optimization",
+      "category": "Lead Generation Agency",
+      "description": "Improving conversion funnels.",
+      "features": [
+        "Conversion Rate Optimization",
+        "User Journey Mapping",
+        "A/B Testing",
+        "Landing Page Optimization"
+      ],
+      "use_case": "Maximizing conversions and revenue"
+    }
+  }

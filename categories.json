@@ -1,0 +1,36 @@
+{
+  "Digital Marketing Agency": [
+    "Full Service Marketing",
+    "Online Branding",
+    "Performance Marketing"
+  ],
+  "Crypto Marketing Agency": [
+    "Token Promotion",
+    "NFT Marketing",
+    "Blockchain PR"
+  ],
+  "Search Engine Optimization": [
+    "On-Page SEO",
+    "Off-Page SEO",
+    "Technical SEO",
+    "Local SEO"
+  ],
+  "Content Marketing Agency": [
+    "Blog Writing",
+    "Copywriting",
+    "Video Content",
+    "Email Marketing Content"
+  ],
+  "Social Media Marketing": [
+    "Organic Social Media",
+    "Paid Social Ads",
+    "Influencer Marketing",
+    "Social Media Management"
+  ],
+  "Lead Generation Agency": [
+    "B2B Lead Generation",
+    "B2C Lead Generation",
+    "Email Outreach",
+    "Funnel Optimization"
+  ]
+}
